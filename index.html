@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calzature Gallon — le friulane vere, dal 1955 · Milano</title>
+<meta name="description" content="Calzature Gallon, in Piazza Sant'Eustorgio a Milano dal 1955. Uno dei pochi negozi con le vere friulane fatte a mano, a un prezzo giusto — con espadrillas e scarpe classiche in pelle. Tre generazioni, vecchio stampo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css?v=1">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 62'><rect width='140' height='62' fill='%232C4A3B'/><path d='M12 44 C6 44 6 37 13 36 C34 33 52 32 66 31 C70 24 80 22 90 26 C104 30 124 30 132 38 C137 43 134 50 126 50 L22 50 C15 50 12 48 12 44 Z' fill='%23CBA659'/></svg>">
+</head>
+<body>
+
+<!-- intro -->
+<div id="intro">
+  <svg class="friul" viewBox="0 0 140 62"><path d="M12 44 C6 44 6 37 13 36 C34 33 52 32 66 31 C70 24 80 22 90 26 C104 30 124 30 132 38 C137 43 134 50 126 50 L22 50 C15 50 12 48 12 44 Z"/></svg>
+  <div class="i-name">Calzature Gallon</div>
+  <div class="i-sub">Sant'Eustorgio · dal 1955</div>
+</div>
+
+<!-- header -->
+<header>
+  <nav class="nav wrap">
+    <a class="brand" href="#hero" aria-label="Calzature Gallon">
+      <svg class="friul" viewBox="0 0 140 62"><path d="M12 44 C6 44 6 37 13 36 C34 33 52 32 66 31 C70 24 80 22 90 26 C104 30 124 30 132 38 C137 43 134 50 126 50 L22 50 C15 50 12 48 12 44 Z"/></svg>
+      <b>Gallon<span>Calzature dal 1955</span></b>
+    </a>
+    <div class="nav-links" id="navlinks">
+      <a href="#storia" data-i18n="nav.storia">La storia</a>
+      <a href="#friulana" data-i18n="nav.friul">Le friulane</a>
+      <a href="#negozio" data-i18n="nav.negozio">In negozio</a>
+      <a href="#dove" data-i18n="nav.dove">Dove siamo</a>
+    </div>
+    <div style="display:flex;align-items:center;gap:16px">
+      <a class="nav-cta" href="tel:+390289402735" data-i18n="nav.cta">Chiama</a>
+      <div class="lang"><button data-lang="it" class="on">IT</button><span>/</span><button data-lang="en">EN</button></div>
+      <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <div class="hero-emblem"><svg class="friul" viewBox="0 0 140 62"><path d="M12 44 C6 44 6 37 13 36 C34 33 52 32 66 31 C70 24 80 22 90 26 C104 30 124 30 132 38 C137 43 134 50 126 50 L22 50 C15 50 12 48 12 44 Z"/></svg></div>
+      <div class="hero-kick kick" data-i18n="hero.kick">Piazza Sant'Eustorgio · alle Colonne di San Lorenzo</div>
+      <h1 data-i18n="hero.h1">Le <em>friulane</em> vere, dal 1955.</h1>
+      <p class="hero-lead" data-i18n="hero.lead">Uno dei pochi negozi di Milano con le autentiche friulane fatte a mano — e con le scarpe classiche di sempre, a un prezzo giusto.</p>
+      <div class="hero-pills">
+        <span class="pill"><b>1955</b> <span data-i18n="hero.p1">tre generazioni</span></span>
+        <span class="pill"><b>4,7★</b> <span data-i18n="hero.p2">90 recensioni</span></span>
+        <span class="pill" data-i18n="hero.p3">Negozio storico milanese</span>
+      </div>
+      <div class="hero-cta">
+        <a class="btn btn-solid" href="tel:+390289402735" data-i18n="hero.cta1">Chiama il negozio</a>
+        <a class="btn btn-ghost" href="#friulana" data-i18n="hero.cta2">Le friulane</a>
+      </div>
+    </div>
+    <div class="hero-photo reveal">
+      <img src="img/facciata.jpg" alt="La facciata storica di Calzature Gallon in Piazza Sant'Eustorgio" loading="eager">
+    </div>
+  </div>
+</section>
+
+<div class="divider"><div class="rule"><svg class="friul" viewBox="0 0 140 62"><path d="M12 44 C6 44 6 37 13 36 C34 33 52 32 66 31 C70 24 80 22 90 26 C104 30 124 30 132 38 C137 43 134 50 126 50 L22 50 C15 50 12 48 12 44 Z"/></svg></div></div>
+
+<!-- STORIA -->
+<section id="storia">
+  <div class="wrap storia-grid">
+    <figure class="storia-photo reveal">
+      <img src="img/facciata-bn.jpg" alt="Il negozio Gallon in una fotografia d'epoca in bianco e nero">
+      <figcaption data-i18n="storia.cap">Il negozio sulla piazza, come allora</figcaption>
+    </figure>
+    <div class="storia-copy reveal">
+      <span class="kick" data-i18n="storia.kick">La storia · dal 1955</span>
+      <h2 data-i18n="storia.h2">Settant'anni sulla piazza</h2>
+      <p class="lead" data-i18n="storia.lead">Un negozio <b>«vecchio stampo»</b>, dove sembra di tornare indietro nel tempo — e infatti è qui dal 1955.</p>
+      <p data-i18n="storia.p1">La famiglia Gallon apre le sue calzature in Piazza Sant'Eustorgio, a due passi dalle Colonne di San Lorenzo. Da allora la strategia è sempre la stessa: qualità e artigianato a un prezzo giusto.</p>
+      <p data-i18n="storia.p2">Oggi il negozio è alla terza generazione. Le vetrine piene, le sedie per provare le scarpe con calma, il proprietario che ti conosce: uno degli indirizzi più iconici e storici della città.</p>
+      <div class="gens">
+        <div class="gen"><div class="n">1955</div><div class="l" data-i18n="storia.g1">Nasce Calzature Gallon</div></div>
+        <div class="gen"><div class="n" data-i18n="storia.g2n">3 gen.</div><div class="l" data-i18n="storia.g2">Tre generazioni di famiglia</div></div>
+        <div class="gen"><div class="n">4,7★</div><div class="l" data-i18n="storia.g3">90 recensioni, «gentilissimi»</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FRIULANA (signature) -->
+<section id="friulana">
+  <div class="wrap">
+    <div class="friul-top reveal">
+      <svg class="friul" viewBox="0 0 140 62"><path d="M12 44 C6 44 6 37 13 36 C34 33 52 32 66 31 C70 24 80 22 90 26 C104 30 124 30 132 38 C137 43 134 50 126 50 L22 50 C15 50 12 48 12 44 Z"/></svg>
+      <span class="kick" data-i18n="friul.kick">Il pezzo forte</span>
+      <h2 data-i18n="friul.h2">La <em>friulana</em>, quella vera</h2>
+      <p data-i18n="friul.p1">La friulana — «furlane» in dialetto — è un'antica pantofola di velluto nata nelle campagne del Friuli: tomaia cucita a mano, suola morbida, tempi lunghi e piccole quantità. Da Gallon si trovano quelle autentiche, fatte da artigiani come una volta, portate in centro a Milano a un prezzo onesto.</p>
+    </div>
+    <div class="colors-lab" data-i18n="friul.lab">— una per colore —</div>
+    <div class="colors reveal">
+      <div class="swatch"><svg class="friul" viewBox="0 0 140 62" style="color:#7A2233"><path d="M12 44 C6 44 6 37 13 36 C34 33 52 32 66 31 C70 24 80 22 90 26 C104 30 124 30 132 38 C137 43 134 50 126 50 L22 50 C15 50 12 48 12 44 Z"/></svg><span>Bordeaux</span></div>
+      <div class="swatch"><svg class="friul" viewBox="0 0 140 62" style="color:#2C5A3E"><path d="M12 44 C6 44 6 37 13 36 C34 33 52 32 66 31 C70 24 80 22 90 26 C104 30 124 30 132 38 C137 43 134 50 126 50 L22 50 C15 50 12 48 12 44 Z"/></svg><span>Verde bosco</span></div>
+      <div class="swatch"><svg class="friul" viewBox="0 0 140 62" style="color:#24406E"><path d="M12 44 C6 44 6 37 13 36 C34 33 52 32 66 31 C70 24 80 22 90 26 C104 30 124 30 132 38 C137 43 134 50 126 50 L22 50 C15 50 12 48 12 44 Z"/></svg><span>Blu notte</span></div>
+      <div class="swatch"><svg class="friul" viewBox="0 0 140 62" style="color:#C8922E"><path d="M12 44 C6 44 6 37 13 36 C34 33 52 32 66 31 C70 24 80 22 90 26 C104 30 124 30 132 38 C137 43 134 50 126 50 L22 50 C15 50 12 48 12 44 Z"/></svg><span>Senape</span></div>
+      <div class="swatch"><svg class="friul" viewBox="0 0 140 62" style="color:#5B2A55"><path d="M12 44 C6 44 6 37 13 36 C34 33 52 32 66 31 C70 24 80 22 90 26 C104 30 124 30 132 38 C137 43 134 50 126 50 L22 50 C15 50 12 48 12 44 Z"/></svg><span>Prugna</span></div>
+      <div class="swatch"><svg class="friul" viewBox="0 0 140 62" style="color:#206B6B"><path d="M12 44 C6 44 6 37 13 36 C34 33 52 32 66 31 C70 24 80 22 90 26 C104 30 124 30 132 38 C137 43 134 50 126 50 L22 50 C15 50 12 48 12 44 Z"/></svg><span>Petrolio</span></div>
+      <div class="swatch"><svg class="friul" viewBox="0 0 140 62" style="color:#A6461F"><path d="M12 44 C6 44 6 37 13 36 C34 33 52 32 66 31 C70 24 80 22 90 26 C104 30 124 30 132 38 C137 43 134 50 126 50 L22 50 C15 50 12 48 12 44 Z"/></svg><span>Ruggine</span></div>
+      <div class="swatch"><svg class="friul" viewBox="0 0 140 62" style="color:#C08494"><path d="M12 44 C6 44 6 37 13 36 C34 33 52 32 66 31 C70 24 80 22 90 26 C104 30 124 30 132 38 C137 43 134 50 126 50 L22 50 C15 50 12 48 12 44 Z"/></svg><span>Rosa cipria</span></div>
+      <div class="swatch"><svg class="friul" viewBox="0 0 140 62" style="color:#33383E"><path d="M12 44 C6 44 6 37 13 36 C34 33 52 32 66 31 C70 24 80 22 90 26 C104 30 124 30 132 38 C137 43 134 50 126 50 L22 50 C15 50 12 48 12 44 Z"/></svg><span>Antracite</span></div>
+      <div class="swatch"><svg class="friul" viewBox="0 0 140 62" style="color:#B4854A"><path d="M12 44 C6 44 6 37 13 36 C34 33 52 32 66 31 C70 24 80 22 90 26 C104 30 124 30 132 38 C137 43 134 50 126 50 L22 50 C15 50 12 48 12 44 Z"/></svg><span>Cammello</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- IN NEGOZIO -->
+<section id="negozio">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="kick" data-i18n="neg.kick">In negozio</span>
+      <h2 data-i18n="neg.h2">Cosa trovi da Gallon</h2>
+      <p data-i18n="neg.sub">Scarpe di qualità, in pelle vera, a prezzi giusti — dal 1955.</p>
+    </div>
+    <div class="trovi">
+      <div class="trovi-card reveal"><span class="ic"><svg class="friul" viewBox="0 0 140 62"><path d="M12 44 C6 44 6 37 13 36 C34 33 52 32 66 31 C70 24 80 22 90 26 C104 30 124 30 132 38 C137 43 134 50 126 50 L22 50 C15 50 12 48 12 44 Z"/></svg></span><div><h3 data-i18n="neg.c1h">Le friulane</h3><p data-i18n="neg.c1p">Le autentiche pantofole di velluto fatte a mano, in tanti colori — il nostro pezzo forte.</p></div></div>
+      <div class="trovi-card reveal"><span class="ic"><svg class="friul" viewBox="0 0 140 62"><path d="M12 44 C6 44 6 37 13 36 C34 33 52 32 66 31 C70 24 80 22 90 26 C104 30 124 30 132 38 C137 43 134 50 126 50 L22 50 C15 50 12 48 12 44 Z"/></svg></span><div><h3 data-i18n="neg.c2h">Le espadrillas</h3><p data-i18n="neg.c2p">Leggere e colorate per l'estate, in tante misure e tinte.</p></div></div>
+      <div class="trovi-card reveal"><span class="ic"><svg class="friul" viewBox="0 0 140 62"><path d="M12 44 C6 44 6 37 13 36 C34 33 52 32 66 31 C70 24 80 22 90 26 C104 30 124 30 132 38 C137 43 134 50 126 50 L22 50 C15 50 12 48 12 44 Z"/></svg></span><div><h3 data-i18n="neg.c3h">Le scarpe classiche da uomo</h3><p data-i18n="neg.c3p">Un'ottima selezione di calzature classiche in pelle, a prezzi competitivi.</p></div></div>
+      <div class="trovi-card reveal"><span class="ic"><svg class="friul" viewBox="0 0 140 62"><path d="M12 44 C6 44 6 37 13 36 C34 33 52 32 66 31 C70 24 80 22 90 26 C104 30 124 30 132 38 C137 43 134 50 126 50 L22 50 C15 50 12 48 12 44 Z"/></svg></span><div><h3 data-i18n="neg.c4h">Gli stivaletti in pelle</h3><p data-i18n="neg.c4p">Vera pelle italiana per l'inverno — comodi e fatti per durare.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery-sec">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="kick" data-i18n="gal.kick">Uno sguardo</span>
+      <h2 data-i18n="gal.h2">Il negozio</h2>
+    </div>
+    <div class="gallery reveal">
+      <figure><img src="img/facciata.jpg" alt="La vetrina di Calzature Gallon" loading="lazy"></figure>
+      <figure><img src="img/interno.jpg" alt="L'interno con le pareti di scatole e le sedie per provare le scarpe" loading="lazy"></figure>
+      <figure><img src="img/facciata-bn.jpg" alt="Il negozio Gallon in bianco e nero" loading="lazy"></figure>
+      <figure><img src="img/saldo.jpg" alt="Il banco delle scarpe a un prezzo giusto" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<!-- RECENSIONI -->
+<section id="recensioni">
+  <div class="wrap">
+    <div class="rev-top reveal">
+      <div class="rev-score">4,7</div>
+      <div class="rev-stars">★★★★★</div>
+      <div class="rev-src" data-i18n="rev.src">Su Google · 90 recensioni</div>
+    </div>
+    <div class="rev-grid">
+      <div class="rev-card reveal"><div class="q">“</div><p data-i18n="rev.q1">Negozio vecchio stampo, sembra di tornare indietro nel tempo. Buona scelta. Famosi per le friulane a un prezzo giusto.</p><div class="who">Nikola I. · <span class="st">★★★★★</span></div></div>
+      <div class="rev-card reveal"><div class="q">“</div><p data-i18n="rev.q2">Un venerabile negozio di scarpe italiano che frequento da 38 anni. Mia figlia ha ricevuto qui il suo primo paio di scarpe: un'esperienza davvero eccezionale.</p><div class="who">FMAKA · <span class="st">★★★★★</span></div></div>
+      <div class="rev-card reveal"><div class="q">“</div><p data-i18n="rev.q3">Adorabile negozietto, gentili e disponibili. Mi sono presa un bellissimo paio di stivali in pelle italiana per soli 75 euro.</p><div class="who">Samantha G. · <span class="st">★★★★★</span></div></div>
+      <div class="rev-card reveal"><div class="q">“</div><p data-i18n="rev.q4">Gentilissimi, scarpe di ottima qualità in pelle vera a prezzi giusti. Il proprietario disponibile e gentile.</p><div class="who">Maria Vittoria V. · <span class="st">★★★★★</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- DOVE -->
+<section id="dove">
+  <div class="wrap dove-grid">
+    <div class="dove-info reveal">
+      <h2 data-i18n="dove.h2">Dove siamo</h2>
+      <div class="info-row"><span class="ic">◆</span><div><div class="lb" data-i18n="dove.addr">Indirizzo</div>
+        <a class="vl" href="https://maps.google.com/?q=Calzature+Gallon+Piazza+Sant'Eustorgio+4+Milano" target="_blank" rel="noopener">Piazza Sant'Eustorgio 4, 20122 Milano</a></div></div>
+      <div class="info-row"><span class="ic">◆</span><div><div class="lb" data-i18n="dove.phone">Telefono</div>
+        <a class="vl" href="tel:+390289402735">02 8940 2735</a></div></div>
+      <div class="info-row"><span class="ic">◆</span><div><div class="lb">Instagram</div>
+        <a class="vl" href="https://instagram.com/calzature_gallon" target="_blank" rel="noopener">@calzature_gallon</a></div></div>
+      <div class="info-row" style="flex-direction:column;gap:6px">
+        <div style="display:flex;gap:14px"><span class="ic">◆</span><div class="lb" data-i18n="dove.hours">Orari</div></div>
+        <div id="hours" style="width:100%"></div>
+        <div id="statusbox"></div>
+      </div>
+      <div class="cta-row">
+        <a class="btn btn-solid" href="tel:+390289402735" data-i18n="dove.call">Chiama il negozio</a>
+        <a class="btn btn-ghost" href="https://maps.google.com/?q=Calzature+Gallon+Piazza+Sant'Eustorgio+4+Milano" target="_blank" rel="noopener" data-i18n="dove.dir">Come arrivare</a>
+      </div>
+    </div>
+    <div class="dove-map reveal">
+      <iframe title="Mappa Calzature Gallon" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps?q=Calzature+Gallon+Piazza+Sant'Eustorgio+4+Milano&output=embed"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="kick" data-i18n="faq.kick">Domande frequenti</span>
+      <h2 data-i18n="faq.h2">Buono a sapersi</h2>
+    </div>
+    <div class="faq-list reveal">
+      <div class="faq-item"><button class="faq-q" data-i18n="faq.q1">Le friulane sono quelle vere, fatte a mano?</button><div class="faq-a"><p data-i18n="faq.a1">Sì: da Gallon trovi le autentiche friulane in velluto, cucite a mano da artigiani secondo la tradizione, in tanti colori — a un prezzo onesto.</p></div></div>
+      <div class="faq-item"><button class="faq-q" data-i18n="faq.q2">Da quando esiste il negozio?</button><div class="faq-a"><p data-i18n="faq.a2">Dal 1955, sempre in Piazza Sant'Eustorgio. Oggi siamo alla terza generazione della famiglia Gallon.</p></div></div>
+      <div class="faq-item"><button class="faq-q" data-i18n="faq.q3">Cosa vendete oltre alle friulane?</button><div class="faq-a"><p data-i18n="faq.a3">Espadrillas, scarpe classiche da uomo in pelle, stivaletti in pelle italiana e calzature di qualità per tutti i giorni, a prezzi competitivi.</p></div></div>
+      <div class="faq-item"><button class="faq-q" data-i18n="faq.q4">Quando siete aperti?</button><div class="faq-a"><p data-i18n="faq.a4">Lunedì 15:00–19:30; da martedì a sabato 09:30–13:00 e 15:00–19:30. Domenica chiuso.</p></div></div>
+      <div class="faq-item"><button class="faq-q" data-i18n="faq.q5">Dove siete esattamente?</button><div class="faq-a"><p data-i18n="faq.a5">In Piazza Sant'Eustorgio 4, alla fine del Corso di Porta Ticinese, a due passi dalle Colonne di San Lorenzo.</p></div></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <svg class="friul" viewBox="0 0 140 62"><path d="M12 44 C6 44 6 37 13 36 C34 33 52 32 66 31 C70 24 80 22 90 26 C104 30 124 30 132 38 C137 43 134 50 126 50 L22 50 C15 50 12 48 12 44 Z"/></svg>
+  <div class="f-name">Calzature Gallon</div>
+  <div class="f-sub" data-i18n="foot.sub">Sant'Eustorgio · Milano · dal 1955</div>
+  <div class="f-links">
+    <a href="#storia" data-i18n="nav.storia">La storia</a>
+    <a href="#friulana" data-i18n="nav.friul">Le friulane</a>
+    <a href="#dove" data-i18n="nav.dove">Dove siamo</a>
+    <a href="tel:+390289402735">02 8940 2735</a>
+    <a href="https://instagram.com/calzature_gallon" target="_blank" rel="noopener">Instagram</a>
+  </div>
+  <div class="f-fine">
+    Piazza Sant'Eustorgio 4, 20122 Milano · <span data-i18n="foot.rating">4,7★ su Google (90 recensioni)</span><br>
+    <span data-i18n="foot.demo">Sito dimostrativo realizzato da Bespoke Studio. Contenuti e recensioni da fonti pubbliche (Google Maps).</span>
+    <a href="https://bespokestud.io" target="_blank" rel="noopener">bespokestud.io</a>
+  </div>
+</footer>
+
+<div class="actionbar">
+  <a class="a-call" href="tel:+390289402735"><span data-i18n="ab.call">Chiama</span><span class="a-state" id="ab-state"></span></a>
+  <a class="a-map" href="https://maps.google.com/?q=Calzature+Gallon+Piazza+Sant'Eustorgio+4+Milano" target="_blank" rel="noopener" data-i18n="ab.map">Mappa</a>
+</div>
+
+<script src="js/main.js?v=1"></script>
+</body>
+</html>
